@@ -36,7 +36,7 @@ FOR k=0, n_elements(cris_geo_list) -1 DO BEGIN
 ENDFOR
 
 ;;; make plot
-print = 1
+print = 0
 psfile='cris_fov.ps'
 set_plot_ps, psfile, print=print
 

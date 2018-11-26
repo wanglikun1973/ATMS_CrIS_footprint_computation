@@ -18,7 +18,7 @@ read_atms_sdr, atms_sdr_file, atms_geo_file, $
    range=atms_range
   
 psfile = 'atms_fov.ps' 
-print  = 1 
+print  = 0
 set_plot_ps, 'atms_fov.ps', print=print
 
 jScan= 4
